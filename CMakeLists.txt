@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.0)
 # define the project
 project(nlohmann_json VERSION 2.1.1 LANGUAGES CXX)
 
-enable_testing()
+# enable_testing()
 
-option(BuildTests "Build the unit tests" ON)
+option(BuildTests "Build the unit tests" OFF)
 
 # define project variables
 set(JSON_TARGET_NAME ${PROJECT_NAME})
